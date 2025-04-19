@@ -6,7 +6,7 @@ export const Instructor = () => {
     <Card className="max-w-sm mx-auto">
       <CardContent className="p-6">
         <img
-          src="/lovable-uploads/7c42a369-9992-482b-9885-c83df0312ca2.png"
+          src="/lovable-uploads/f0df8db1-fec1-40cb-9924-2e1244114023.png"
           alt="Team Zest Instructor"
           className="w-full h-auto rounded-lg mb-4"
         />
@@ -18,3 +18,4 @@ export const Instructor = () => {
     </Card>
   );
 };
+
