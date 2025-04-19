@@ -1,3 +1,4 @@
+
 import { Navigation } from "@/components/ui/navigation";
 import { Button } from "@/components/ui/button";
 import { Schedule } from "@/components/Schedule";
@@ -20,6 +21,18 @@ const Index = () => {
             하늘을 바라만 보고는 것이 아닌 하늘을 날아 보는 것은 어떠세요?
             팀 제스트가 실현 시켜 드리겠습니다.
           </p>
+          <div className="mb-8 w-full max-w-3xl mx-auto">
+            <iframe 
+              width="100%" 
+              height="315" 
+              src="https://www.youtube.com/embed/unOutwB_puc?autoplay=1&mute=1" 
+              title="Team Zest Acrobatic" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowFullScreen
+              className="rounded-lg shadow-lg"
+            ></iframe>
+          </div>
           <Button size="lg" variant="default" className="text-lg">
             시작하기
           </Button>
@@ -102,7 +115,15 @@ const Index = () => {
             <div>
               <h3 className="text-2xl font-bold mb-4">찾아오시는 길</h3>
               <p className="text-gray-600 mb-6">
-                서울특별시 강남구
+                서울특별시 강남구 논현동 49번지 선양빌딩 B1F
+              </p>
+              <p className="text-gray-600 mb-6">
+                강남 논현역에서 7번출구로 나와 도보 30초로 직진하시면 오른쪽CU 편의점 건물 선양빌딩 지하1층 입니다. 
+                강남 신사역에서 3번출구로 나와 도보 1분 직진하시면 왼쪽 CU편의점 건물 선양빌딩 지하1층 입니다. 
+                신사역 버스정류장 바로 앞 맞은편 길 건너 CU편의점 건물 선양빌딩 지하1층 입니다.
+              </p>
+              <p className="text-gray-600 mb-6">
+                주차정보: 무료 주차 12대 가능합니다.
               </p>
               <Button variant="default">
                 길찾기
@@ -119,6 +140,12 @@ const Index = () => {
           <p className="text-xl mb-8">
             팀 제스트와 함께 시작해보세요
           </p>
+          <p className="text-xl mb-8">
+            전화: 010-2034-9744 / 010-8345-1775
+          </p>
+          <p className="text-xl mb-8">
+            이용시간: 매일 00:00 - 24:00
+          </p>
           <Button variant="secondary" size="lg">
             상담 신청하기
           </Button>
@@ -131,14 +158,26 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-2xl font-bold mb-4">Team Zest</h3>
-              <p className="text-gray-400">
+              <p className="text-gray-400 mb-4">
                 강남아크로바틱&마샬아츠트릭킹
               </p>
+              <div className="flex space-x-4">
+                <a href="https://www.instagram.com/zest_tricking/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+                  Instagram
+                </a>
+                <a href="https://www.facebook.com/Minseok0802/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+                  Facebook
+                </a>
+                <a href="https://blog.naver.com/minseok0802" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+                  Blog
+                </a>
+              </div>
             </div>
             <div className="text-right">
               <h4 className="font-bold mb-2">연락처</h4>
-              <p className="text-gray-400">이메일: contact@teamzest.com</p>
-              <p className="text-gray-400">전화: 02-XXX-XXXX</p>
+              <p className="text-gray-400">전화: 010-2034-9744 / 010-8345-1775</p>
+              <p className="text-gray-400">이용시간: 매일 00:00 - 24:00</p>
+              <p className="text-gray-400">주소: 서울특별시 강남구 논현동 49번지 선양빌딩 B1F</p>
             </div>
           </div>
         </div>
