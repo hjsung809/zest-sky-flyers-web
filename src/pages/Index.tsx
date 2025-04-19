@@ -1,6 +1,8 @@
-
 import { Navigation } from "@/components/ui/navigation";
 import { Button } from "@/components/ui/button";
+import { Schedule } from "@/components/Schedule";
+import { Instructor } from "@/components/Instructor";
+import { Gallery } from "@/components/Gallery";
 
 const Index = () => {
   return (
@@ -21,6 +23,30 @@ const Index = () => {
           <Button size="lg" variant="default" className="text-lg">
             시작하기
           </Button>
+        </div>
+      </section>
+
+      {/* Schedule Section */}
+      <section id="schedule" className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center mb-12">수업 시간표</h2>
+          <Schedule />
+        </div>
+      </section>
+
+      {/* Instructor Section */}
+      <section id="instructor" className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center mb-12">강사 소개</h2>
+          <Instructor />
+        </div>
+      </section>
+
+      {/* Gallery Section */}
+      <section id="gallery" className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center mb-12">시설 안내</h2>
+          <Gallery />
         </div>
       </section>
 
