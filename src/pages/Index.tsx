@@ -1,4 +1,6 @@
+
 import { Navigation } from "@/components/ui/navigation";
+import { Button } from "@/components/ui/button";
 import { Schedule } from "@/components/Schedule";
 import { Instructor } from "@/components/Instructor";
 import { Gallery } from "@/components/Gallery";
