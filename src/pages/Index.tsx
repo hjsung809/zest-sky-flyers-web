@@ -1,5 +1,4 @@
 import { Navigation } from "@/components/ui/navigation";
-import { Button } from "@/components/ui/button";
 import { Schedule } from "@/components/Schedule";
 import { Instructor } from "@/components/Instructor";
 import { Gallery } from "@/components/Gallery";
@@ -12,7 +11,7 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center bg-gradient-to-r from-blue-900 to-blue-800">
         <div className="absolute inset-0 bg-black/50 z-10"></div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 text-center text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 text-center text-white pt-24">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-float">
             TEAM ZEST
           </h1>
@@ -32,9 +31,6 @@ const Index = () => {
               className="rounded-lg shadow-lg"
             ></iframe>
           </div>
-          <Button size="lg" variant="default" className="text-lg">
-            시작하기
-          </Button>
         </div>
       </section>
 
@@ -75,12 +71,10 @@ const Index = () => {
               </h3>
               <p className="text-gray-600 mb-6">
                 팀 제스트는 전문적인 아크로바틱과 마샬아츠 트릭킹 교육을 제공합니다.
-                초보자부터 전문가까��, 각자의 수준에 맞는 맞춤형 교육으로
+                초보자부터 전문가까지, 각자의 수준에 맞는 맞춤형 교육으로
                 여러분의 꿈을 실현시켜 드립니다.
               </p>
-              <Button variant="outline">자세히 알아보기</Button>
             </div>
-            <div className="aspect-video bg-gray-200 rounded-lg"></div>
           </div>
         </div>
       </section>
